@@ -1,39 +1,110 @@
-<h1>Chicago Padel Rankings</h1>
-<table><caption>Live Rankings</caption>
-  <tr>
-    <th>Ranking</th>
-    <th>Player</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Rantanen K.</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Kautonen I.</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Huuhka T.</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Kautonen A.</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Hyökki V.</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Hyökki T.</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Salimäki M.</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>Tynkkynen T.</td>
-  </tr>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>Chicago Padel Rankings</h1>
+  </div>
+</div>
+
+<table class="styled-table">
+  <caption>Live Rankings</caption>
+  <thead>
+    <tr>
+      <th>Ranking</th>
+      <th>Player</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Rantanen K.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Kautonen I.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Huuhka T.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Kautonen A.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Hyökki V.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Hyökki T.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Salimäki M.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Tynkkynen T.</td>
+    </tr>
+  </tbody>
 </table>
+
+<style type="text/css" media="screen">
+  body,
+  html {
+    height: 100%;
+  }
+
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("racket.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+  }
+
+  caption {
+    font-size: 1.5em;
+  }
+
+  .styled-table th,
+  .styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+  }
+
+  .styled-table tbody tr {
+    border-bottom: thin solid #dddddd;
+  }
+
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+
+  .styled-table tbody tr:last-of-type {
+    border-bottom: thin solid #009879;
+  }
+</style>
